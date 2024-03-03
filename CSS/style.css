@@ -1,3 +1,28 @@
-body {
-  background-color: blue;
+#background {
+  background-color: rgb(0, 145, 255);
+}
+#headers {
+  border: 10px;
+  color: rgb(255, 255, 255);
+  line-height: 100px;
+  font-size: 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-justify: auto;
+  margin-bottom: 5px;
+}
+#logo {
+  margin-top: auto;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+#logo:hover {
+  transform: scale(1.5);
+}
+#images {
+  width: 120px;
 }
